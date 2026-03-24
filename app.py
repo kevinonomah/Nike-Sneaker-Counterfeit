@@ -17,11 +17,11 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # The rest stays exactly the same!
-YOLO_SHOE_PATH = f"{BASE_DIR},"shoe_best.pt"
-YOLO_MICRO_PATH = f"{BASE_DIR},"micro_best.pt"
-TOWER_PATH = f"{BASE_DIR}/siamese_tower.keras"
-MLP_PATH = f"{BASE_DIR}/fusion_mlp.keras"
-BANK_PATH = f"{BASE_DIR}/reference_bank.pkl"
+YOLO_SHOE_PATH = os.path.join(BASE_DIR, "shoe_best.pt")
+YOLO_MICRO_PATH = os.path.join(BASE_DIR, "micro_best.pt")
+TOWER_PATH = os.path.join(BASE_DIR, "siamese_tower.keras")
+MLP_PATH = os.path.join(BASE_DIR, "fusion_mlp.keras")
+BANK_PATH = os.path.join(BASE_DIR, "reference_bank.pkl")
 
 @st.cache_resource
 def load_models():
