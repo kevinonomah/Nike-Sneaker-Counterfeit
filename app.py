@@ -17,8 +17,8 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # The rest stays exactly the same!
-YOLO_SHOE_PATH = f"{BASE_DIR}/runs/detect/ds1_shoe_detector5/weights/best.pt"
-YOLO_MICRO_PATH = f"{BASE_DIR}/runs/detect/ds3_micro_detector2/weights/best.pt"
+YOLO_SHOE_PATH = f"{BASE_DIR}/runs/detect/ds1_shoe_detector5/weights/shoe_best.pt"
+YOLO_MICRO_PATH = f"{BASE_DIR}/runs/detect/ds3_micro_detector2/weights/micro_best.pt"
 TOWER_PATH = f"{BASE_DIR}/siamese_tower.keras"
 MLP_PATH = f"{BASE_DIR}/fusion_mlp.keras"
 BANK_PATH = f"{BASE_DIR}/reference_bank.pkl"
