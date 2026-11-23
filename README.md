@@ -174,7 +174,7 @@ Python · Ultralytics YOLOv8 · TensorFlow/Keras · OpenCV · scikit-learn · Nu
 M.S. Artificial Intelligence candidate, Minnesota State University, Mankato
 Thesis advisor: Dr. Rajeev Bukralia
 
-[GitHub](https://github.com/kevinonomah)
+[LinkedIn](https://www.linkedin.com/in/kevin-osei-onomah) · [GitHub](https://github.com/kevinonomah)
 
 If you use this work, please cite:
 
